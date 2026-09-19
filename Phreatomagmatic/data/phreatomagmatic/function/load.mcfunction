@@ -1,0 +1,1 @@
+tellraw @a ["§lPhreatomagmatic ", {sprite:"block/dead_horn_coral",atlas:"blocks",bold:True}]
