@@ -1,6 +1,23 @@
 {
     "pack": {
-        "pack_format": 121,
-        "description": "Example datapack!"
+        "id": "Phreatomagmatic",
+        "min_format": 94,
+        "max_format": 107,
+        "description": [
+            {
+                "text": "§lPhreatomagmatic"
+            },
+            {
+                "text": " - eruption\nCreated by ",
+                "color": "gray"
+            },
+            {
+                "text": "Oxygen",
+                "color": "#e599f5"
+            }
+        ]
+    },
+    "overlays": {
+        "entries": []
     }
 }

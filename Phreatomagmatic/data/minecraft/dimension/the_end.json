@@ -1,0 +1,18 @@
+{
+      "type": "minecraft:the_end",
+      "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+          "type": "minecraft:checkerboard",
+          "biomes": [
+            "minecraft:the_end",
+            "minecraft:end_highlands",
+            "minecraft:end_midlands",
+            "minecraft:small_end_islands",
+            "minecraft:end_barrens",
+            "phreatomagmatic:eruption"
+          ]
+        },
+        "settings": "minecraft:end"
+      }
+    }
