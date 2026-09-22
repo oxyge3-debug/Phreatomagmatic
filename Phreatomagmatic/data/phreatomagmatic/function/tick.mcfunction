@@ -1,0 +1,2 @@
+#execute as @e[type=falling_block,nbt={BlockState:{id:"minecraft:smooth_sandstone"},Time:1}] if entity @s in the_end run summon tnt ~ ~ ~ {block_state:{id:"minecraft:smooth_sandstone"}}
+#execute as @e[type=falling_block,nbt={BlockState:{id:"minecraft:smooth_sandstone"},Time:1}] if entity @s in the_end run kill @s

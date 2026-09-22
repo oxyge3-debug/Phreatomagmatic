@@ -1,0 +1,10 @@
+{
+    "type": "condition",
+    "if_true": {
+        "type": "biome",
+        "biome_is": "phreatomagmatic:eruptive_dunes"
+    }, "then_run": {
+        "type": "block",
+        "result_state": "smooth_sandstone"
+    }
+}

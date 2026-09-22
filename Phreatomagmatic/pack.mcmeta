@@ -1,18 +1,18 @@
 {
     "pack": {
         "id": "Phreatomagmatic",
-        "min_format": 94,
-        "max_format": 107,
+        "min_format": 121,
+        "max_format": 121,
         "description": [
             {
                 "text": "§lPhreatomagmatic"
             },
             {
-                "text": " - eruption\nCreated by ",
-                "color": "gray"
+                "text": " - eruptive dunes",
+                "color": "#ee832b"
             },
             {
-                "text": "Oxygen",
+                "text": "Created by Oxygen",
                 "color": "#e599f5"
             }
         ]
