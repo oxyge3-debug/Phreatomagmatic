@@ -1,10 +1,34 @@
 {
-    "type": "condition",
-    "if_true": {
-        "type": "biome",
-        "biome_is": "phreatomagmatic:eruptive_dunes"
-    }, "then_run": {
-        "type": "block",
-        "result_state": "smooth_sandstone"
-    }
+    "type": "sequence",
+    "sequence": [
+        {
+            "type": "condition",
+            "if_true": {
+                "type": "biome",
+                "biome_is": "phreatomagmatic:eruptive_dunes"
+            }, "then_run": {
+                "type": "condition",
+                "if_true": {
+                    "type": "stone_depth",
+                    "add_surface_depth": false,
+                    "offset": 1,
+                    "secondary_depth_range": 0,
+                    "surface_type": "floor"
+                }, "then_run": {
+                    "type": "block",
+                    "result_state": "stripped_poplar_wood"
+                }
+            }
+        },
+          {
+            "type": "condition",
+            "if_true": {
+                "type": "biome",
+                "biome_is": "phreatomagmatic:eruptive_dunes"
+            }, "then_run": {
+                "type": "block",
+                    "result_state": "mud"
+            }
+        }
+    ]
 }

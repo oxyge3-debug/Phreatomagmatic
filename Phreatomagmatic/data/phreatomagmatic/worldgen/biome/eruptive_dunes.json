@@ -1,25 +1,21 @@
 {
   "attributes": {
-    "minecraft:gameplay/natural_mob_spawns": {
-      "argument": {
-        "spawn_costs": {},
-        "spawns_by_category": {
-          "monster": [
-            {
-              "type": "minecraft:enderman",
-              "count": 4,
-              "weight": 10
-            }
-          ]
-        }
+    "minecraft:visual/ambient_particles": [
+    {
+      "particle": {
+        "type": "minecraft:orange_poplar_leaves"
       },
-      "modifier": "overlay"
+      "probability": 0.00093334
     }
+  ]
   },
   "carvers": [],
   "downfall": 0.5,
   "effects": {
-    "water_color": "#3f76e4"
+    "water_color": "#3f76e4",
+    "foliage_color": "#d3b286",
+    "dry_foliage_color": "#eedfcc",
+    "grass_color": "#d3b286"
   },
   "features": [
     [],
@@ -32,7 +28,6 @@
     [],
     [],
     [
-      "patch_dry_grass_desert"
     ],
     []
   ],

@@ -15,12 +15,12 @@
       },
       "modifier": "overlay"
     },
-     "minecraft:visual/ambient_particles": [
+    "minecraft:visual/ambient_particles": [
     {
       "particle": {
-        "type": "minecraft:cherry_leaves"
+        "type": "minecraft:white_ash"
       },
-      "probability": 0.000093334
+      "probability": 0.00193334
     }
   ]
   },
@@ -29,22 +29,7 @@
   "effects": {
     "water_color": "#3f76e4"
   },
-  "features": [
-    [],
-    [],
-    [],
-    [],
-    [
-      "minecraft:end_gateway_return"
-    ],
-    [],
-    [],
-    [],
-    [],
-    [
-      "minecraft:chorus_plant"
-    ]
-  ],
+  "features": [],
   "has_precipitation": false,
   "temperature": 0.5
 }
